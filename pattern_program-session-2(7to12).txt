@@ -1,0 +1,218 @@
+pattern-7
+input-5
+output-
+
+*********
+ ******* 
+  *****  
+   ***   
+    *    
+
+int main()
+{
+    
+    int i,j,n;
+    scanf("%d",&n);
+   
+    for(i=1;i<=n;i++)
+    {   
+        for(j=1;j<2*n;j++)
+        {   
+            if(j>=i  && j<=2*n-i)
+            {   
+                printf("*");
+                
+             
+                
+            }
+            else
+            
+            printf(" ");
+            
+        }
+        
+    
+        printf("\n");
+    }
+    
+    return 0;
+}
+
+-----------------------------------------------------------------------------------
+
+
+pattern-8
+input-5
+output-
+
+123456789
+ 2345678 
+  34567  
+   456   
+    5    
+
+#include <stdio.h>
+
+int main()
+{
+    
+    int i,j,k,n;
+    scanf("%d",&n);
+    k=n;
+    for(i=1;i<=n;i++)
+    {   
+        for(j=1;j<2*n;j++)
+        {   
+            if(j>=i  && j<=2*n-i)
+            {   
+                printf("%d",j);//change here
+                
+       
+                
+            }
+            else
+            
+            printf(" ");
+            
+        }
+        
+    
+        printf("\n");
+    }
+    
+    return 0;
+}
+
+----------------------------------------------------------------------------------------
+
+pattern-9
+input-5
+output-
+
+543212345  
+ 4321234 
+  32123  
+   212   
+    1    
+
+
+#include <stdio.h>
+
+int main()
+{
+    
+    int i,j,k,n;
+    scanf("%d",&n);
+    k=n;
+    for(i=1;i<=n;i++)
+    {   
+        for(j=1;j<2*n;j++)
+        {   
+            if(j>=i  && j<=2*n-i)
+            {   
+                printf("%d", k);
+                
+                j<n ? k-- :++k;
+                
+            }
+            else
+            
+            printf(" ");
+            
+        }
+        
+        k=k-2;
+        printf("\n");
+    }
+    
+    return 0;
+}
+
+--------------------------------------------------------------------------------------------------
+pattern-10
+input-5
+output-
+
+111111111
+ 2222222 
+  33333  
+   444   
+    5    
+
+#include <stdio.h>
+
+int main()
+{
+    
+    int i,j,n;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {   
+        for(j=1;j<2*n;j++)
+        {   
+            if(j>=i  && j<=2*n-i)
+            {   
+                printf("%d",i);
+                
+                
+            }
+            else
+            
+            printf(" ");
+            
+        }
+        
+    
+        printf("\n");
+    }
+    
+    return 0;
+}
+
+
+----------------------------------------------------------------------------------------------------------
+pattern-11
+input-5
+output-
+
+543212345
+ 6543456 
+  76567  
+   878   
+    9    
+
+#include <stdio.h>
+
+int main()
+{
+    
+    int i,j,k,n;
+    scanf("%d",&n);
+    k=n;
+    for(i=1;i<=n;i++)
+    {   
+        for(j=1;j<2*n;j++)
+        {   
+            if(j>=i  && j<=2*n-i)
+            {   
+                printf("%d",k);
+                
+               j<n ? k-- :++k;
+                
+            }
+            else
+            
+            printf(" ");
+            
+        }
+        
+    
+        printf("\n");
+    }
+    
+    return 0;
+}
+
+
+
+
