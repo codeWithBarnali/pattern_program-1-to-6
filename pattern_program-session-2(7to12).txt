@@ -56,9 +56,9 @@ output-
 int main()
 {
     
-    int i,j,k,n;
+    int i,j,n;
     scanf("%d",&n);
-    k=n;
+   
     for(i=1;i<=n;i++)
     {   
         for(j=1;j<2*n;j++)
