@@ -1,2 +1,2 @@
-# pattern_program-1-to-6
+# pattern_program
 pattern programming with c
